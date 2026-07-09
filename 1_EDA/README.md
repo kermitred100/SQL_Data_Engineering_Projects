@@ -97,3 +97,5 @@ By querying across these interconnected tables, I extracted insights about skill
 - **Calculated Metrics**: Derived optimal score combining log-transformed demand with median salary
 - **HAVING Clause**: Filtering aggregated results (skills with >= 100 postings)
 - **NULL Handling**: Proper filtering of incomplete records (`salary_year_avg IS NOT NULL`)
+
+Special thanks to Luke Barousse, an incredible teacher. This project is from his Data Engineering course, I tweaked the SQL query to use different statistical functions.
