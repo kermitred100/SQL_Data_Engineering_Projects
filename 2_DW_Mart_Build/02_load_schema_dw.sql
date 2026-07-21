@@ -38,6 +38,8 @@ SELECT skill_id, job_id
 FROM read_csv('https://storage.googleapis.com/sql_de/skills_job_dim.csv',
     AUTO_DETECT=TRUE);
 
+-- Data Validation
+
 SELECT 'Company Dim' AS table_name, COUNT(*) AS record_count FROM company_dim
 UNION ALL
 SELECT 'Skills Dim', COUNT(*) FROM skills_dim
