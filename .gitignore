@@ -1,1 +1,4 @@
 Lessons/
+
+*.duckdb
+*.duckdb.wal
